@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') { 
             steps { 
-               echo "Checked out" 
+               echo "Done" 
             }
         }
         stage('Build'){
